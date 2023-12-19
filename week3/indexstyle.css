@@ -43,7 +43,7 @@ img {
 	margin-top: auto;
 	flex-wrap: wrap;
 	align-content: flex;
-	flex-direction: row;
+	flex-direction: column;
 	
 }
 
@@ -57,7 +57,7 @@ img {
 	display: flex;
 	margin-top: 4%;
 	border-radius: 10px;
-	flex-direction: row;
+	flex-direction: column;
 }
 
 .container .lastfm {
@@ -70,5 +70,5 @@ img {
 	display: flex;
 	margin-top: 4%;
 	border-radius: 10px;
-	flex-direction: row;
+	flex-direction: column;
 }
