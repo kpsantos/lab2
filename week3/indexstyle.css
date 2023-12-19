@@ -1,11 +1,16 @@
+
 body {
-	
 	border-radius: 5px;
 	background-position: center;
 	background-size: 100%,100%;
 	background-attachment: fixed;
 	background-image: url('images/deftones.jpg');
 	
+}
+
+img {
+	display: block;
+	margin: auto;
 }
 
 
@@ -15,14 +20,55 @@ body {
 }
 
 .title {
+	border: 1px;
+	border-radius: 30px;
+	padding: 1px;
 	text-align: center;
 	font-family: sans-serif, 'Open Sans';
 	font-size: 50px;
+	background-color: azure;
+	text-align: center;
 }
 
 	
-.games{
-	float: left;
-	padding: 15px;
+.container {
+	font-family:'Roboto', sans-serif;
+	font-size: 18px;  
+	position: relative;
+	width: 1100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+	margin-top: auto;
+	flex-wrap: wrap;
+	align-content: flex;
+	flex-direction: row;
+	
 }
 
+.container .osu {
+	position: relative;
+	width: 500px;
+	height: 500px;
+	background: #F9FACA;
+	margin: 30px 20px;
+	padding: 20px 15px;
+	display: flex;
+	margin-top: 4%;
+	border-radius: 10px;
+	flex-direction: row;
+}
+
+.container .lastfm {
+	position: relative;
+	width: 500px;
+	height: 500px;
+	background: #F9FACA;
+	margin: 30px 20px;
+	padding: 20px 15px;
+	display: flex;
+	margin-top: 4%;
+	border-radius: 10px;
+	flex-direction: row;
+}
