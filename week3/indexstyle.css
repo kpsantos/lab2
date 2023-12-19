@@ -1,33 +1,30 @@
 <style>
 
-.bg1 {
+body {
+	
+	border-radius: 5px;
+	background-position: center;
+	background-size: 100%,100%;
+	background-attachment: fixed;
+	background-image: url('images/deftones.jpg');
+	
 }
 
 
 .body1 {
 	font-family:'Roboto', sans-serif;
-	font-size: 18px;
-	background-color: "F8F1AE";
-	background-position: center;
-	background-size: 100%,100%;
-	background-attachment: fixed;
-	background-image: url(/week3/bg-img.jpg)
-	height: 300vh;  
+	font-size: 18px;  
 }
-}
+
 .title {
 	text-align: center;
-	border-radius: 5px;
 	font-family: sans-serif, 'Open Sans';
 	font-size: 50px;
-	
-	}
+}
+
 	
 .games{
 	float: left;
 	padding: 15px;
-}
-#aboutme{
-	text-align
 }
 
