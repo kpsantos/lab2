@@ -1,5 +1,5 @@
-/* div {
-    
+ /*div {
+    border: 1px solid red;
 } */
 * {
     margin:0;
@@ -7,16 +7,72 @@
     box-sizing: border-box;
     font-family: sans-serif, 'Roboto';
 }
+.welcome-container{
+    display: inline-block;
+}
+
+.welcome-text {
+    font-size: 4em;
+    letter-spacing: 5px;
+    font-family: monospace;
+    border-right: .15em solid black;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+    margin: 0 auto;
+}
+
+/*blinking cursor*/
+@keyframes typing {
+    from {width : 0}
+    to {width: 100%}
+}
+
+@keyframes blink-caret{
+    from, to{border-color:transparent}
+    50% {border-color: transparent;}
+}
 
 .aboutme{
     text-align: left;
     font-family: 'Roboto', sans-serif;
+    padding: 5rem 10rem;
+    display: flex;
+    background-color: rgba(103,100,125, .7) ;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 50px;
 }
 
-.aboutmebody{
-    text-align: right;
+
+/*.pic img {
+    border-radius: 2rem;
+  }*/
+
+.aboutme1{
+    text-align: left;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: auto;
+    padding-top: 1rem;  
 }
+
+.aboutme2{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: auto;
+    padding-top: 1rem;
+}
+
+.aboutme3{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;;
+    margin-top:auto;
+    padding-top: 1rem;
+}
+
 
 header {
     text-align: center;
@@ -52,6 +108,12 @@ main{
     display: flex;
     align-items: center; 
     justify-content: center;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .imagecontainer {
@@ -150,16 +212,29 @@ header, footer {
 section {
     margin: 1rem;
     padding: .5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 section h1 h2 {
     margin: 2rem;
     padding: .5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .osu-sig-container{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 2px;
+    justify-content: right;
+    align-items: right;
+    padding: 1px;
+    flex-direction: row;
+    gap: 50px;
+}
+
+#osu-sig{
+ 
+}
+#iframe-round {
+    border-radius:10px;
 }
