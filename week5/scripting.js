@@ -7,5 +7,7 @@ link.href = 'website.css';
 
 //html head element append link element
 function button1(){
-    document.getElementById("buttonid1").innerHTML = "Hello javascript!"
+    let spotifyName = "kizzah";
+    document.getElementById("buttonid1").innerHTML = spotifyName;
 }
+
