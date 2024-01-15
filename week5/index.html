@@ -8,7 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto&display=swap" rel="stylesheet">
 <!--logo font-->
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-<script src="indexscript.js"></script>
+
 
 
 <head>
@@ -17,25 +17,27 @@
 </head>
 
 <body class = "bg">
+  
+ 
   <!--navbar-->
   <nav class ="basta">
     <a class="logo">shortscouture</a>
       <div class="navbar">
           <a href="#">Home</a>
-          <a href="#">About</a>
+          <a onclick="darkMode()">Test</a>
           <a href="#">Misc</a>
       </div>
   </nav>
   <!--html structure-->
   <main>
     <div class="welcome-container">
-    <header class="welcome-text">Welcome to Kyle's userpage!</header>
+    <header class="welcome-text">Welcome to  userpage!</header>
     </div>
     <div class="article">
       <div class="aboutme">
         <section class="aboutme1">
           <h1>About me</h1>
-          <p>Hello, My name is Kyle Santos. I am currently a 2nd year student taking BS Computer Science in Asia Pacific College.</p>
+          <p>Hello, My name is Kyle Santos. I am currently a 2nd year student taking BS Computer Science at Asia Pacific College.</p>
         </section>
         <section class="aboutme2">
           <h1>Hobbies and Interests</h1>
@@ -79,7 +81,11 @@
         <a href="https://open.spotify.com/user/9npvet1shp7a8u0ekq5zzl30g"><img src="images/spotify.svg">
         </a>
       </p>
+      <p class="imagecontainer">
+        <button id="buttonid1" type="button" onclick="button1()">Click me!</button>
+      </p>
     </div>
+    <script src="scripting.js"></script>
 </body>
 
 </html>
