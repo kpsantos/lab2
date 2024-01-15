@@ -11,3 +11,7 @@ function button1(){
     document.getElementById("buttonid1").innerHTML = spotifyName;
 }
 
+function button2(){
+    const d = new Date();
+    document.getElementById("buttonid2").innerHTML = d;
+}
