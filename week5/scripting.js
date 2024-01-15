@@ -12,6 +12,6 @@ function button1(){
 }
 
 function button2(){
-    const d = new Date();
-    document.getElementById("buttonid2").innerHTML = d;
+    let text = `he's often called me "Honey!"`;
+    document.getElementById("buttonid2").innerHTML = text;
 }
