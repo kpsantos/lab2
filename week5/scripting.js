@@ -16,9 +16,11 @@ function button2(){
 
 }
 
-function button3(){
+function wallahi(){
     document.getElementById("buttonid3").innerHTML = person.firstName + person.lastName;
 }
+
+
 
 const person =  {
     firstName: "Janson",
