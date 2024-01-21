@@ -12,6 +12,15 @@ function button1(){
 }
 
 function button2(){
-    const cars = ["Saab", "Volvo", "BMW"];
     document.getElementById("buttonid2").innerHTML = cars[0];
+
 }
+
+function button3(){
+    document.getElementById("buttonid3").innerHTML = person.firstName + person.lastName;
+}
+
+const person =  {
+    firstName: "Janson",
+    lastName: "Pagharion"
+};

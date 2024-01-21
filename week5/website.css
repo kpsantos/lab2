@@ -63,6 +63,32 @@
     margin-bottom: 50px;
 }
 
+.ty{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    padding: 5rem 10rem;
+    display: flex;
+    background-color: rgba(103,100,125, .7) ;
+    backdrop-filter: blur(7px);
+    flex-direction: column;
+    border-color: red;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.jsbox{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    padding: 5rem 10rem;
+    display: flex;
+    background-color: rgba(103,100,125, .7) ;
+    backdrop-filter: blur(7px);
+    flex-direction: column;
+    border-color: red;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
 
 /*.pic img {
     border-radius: 2rem;
