@@ -29,7 +29,7 @@ function first(){
 }
 
 function second(){
-    aSync("I like turtles.");
+    aSync("I love you!");
 }
 
 first();
