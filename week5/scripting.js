@@ -20,6 +20,20 @@ function wallahi(){
     document.getElementById("buttonid3").innerHTML = test.course;
 }
 
+function aSync(some){
+    document.getElementById("demo").innerHTML = some;
+}
+
+function first(){
+    aSync("Hello");
+}
+
+function second(){
+    aSync("I like turtles.");
+}
+
+first();
+second();
 class aboutMe{
     constructor(course, year) {
         this.course = course;
@@ -28,6 +42,8 @@ class aboutMe{
 }
 
 const test = new aboutMe("Computer Science", 2023);
+
+
 
 
 const person =  {
