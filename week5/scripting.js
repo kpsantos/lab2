@@ -17,9 +17,17 @@ function button2(){
 }
 
 function wallahi(){
-    document.getElementById("buttonid3").innerHTML = person.firstName + person.lastName;
+    document.getElementById("buttonid3").innerHTML = test.course;
 }
 
+class aboutMe{
+    constructor(course, year) {
+        this.course = course;
+        this.year = year;
+    }
+}
+
+const test = new aboutMe("Computer Science", 2023);
 
 
 const person =  {
