@@ -22,6 +22,8 @@
   echo "Look, I printed a statement!";
   $cookie = "I love cookies.";
   echo "$cookie";
+  $x = 10;
+  var_dump($x);
 ?>
 
  
