@@ -20,6 +20,8 @@
 <?php
   echo "My first PHP script!";
   echo "Look, I printed a statement!";
+  $cookie = "I love cookies.";
+  echo "$cookie";
 ?>
 
  
