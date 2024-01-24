@@ -25,8 +25,8 @@
   $x = 10;
   var_dump($x);
   if ($x < 20) {
-    echo "$x is greater than 20."
-  };
+    echo "$x is greater than 20.";
+  }
 ?>
 
  
