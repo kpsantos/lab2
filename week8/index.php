@@ -47,7 +47,7 @@
     </div>
     <div class="article">
       <div class="aboutme">
-        <?php include 'index.php';?>
+        
         <section class="aboutme1">
           <h1>About me</h1>
           <p>Hello, My name is Kyle Santos. I am currently a 2nd year student taking BS Computer Science at Asia Pacific College.</p>
