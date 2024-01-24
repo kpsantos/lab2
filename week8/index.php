@@ -19,6 +19,7 @@
 <body class = "bg">
 <?php
   echo "My first PHP script!";
+  echo "Look, I printed a statement!";
 ?>
 
  
