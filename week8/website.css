@@ -12,6 +12,10 @@
     padding-top: 24px;
 }
 
+.error{
+    color: red;
+}
+
 .dark-mode {
     min-height: 100vh;
 	background-position: center;

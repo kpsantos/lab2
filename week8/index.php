@@ -17,25 +17,13 @@
 </head>
 
 <body class = "bg">
-<?php
-  echo "My first PHP script!";
-  echo "Look, I printed a statement!";
-  $cookie = "I love cookies.";
-  echo "$cookie";
-  $x = 10;
-  var_dump($x);
-  if ($x < 20) {
-    echo "$x is greater than 20.";
-  }
-?>
-
  
   <!--navbar-->
   <nav class ="basta">
     <a class="logo">shortscouture</a>
       <div class="navbar">
           <a href="#">Home</a>
-          <a onclick="darkMode()">Test</a>
+          <a href="phpScript.php">PHP Entry Form</a>
           <a href="#">Misc</a>
       </div>
   </nav>
@@ -77,15 +65,6 @@
           </div>
           </section>
         </section>
-      </div>
-      <!--JS BOX-->
-      <div class = "jsbox">
-        <p class="imagecontainer">
-          <button id="buttonid1" type="button" onclick="button1()">Click me!</button>
-          <button id="buttonid2" type ="button" onclick="button2()">Date!</button>
-          <button id="buttonid3" type ="button" onclick="wallahi()">My favorite</button>
-          <p id = "demo"></p>
-        </p>
       </div>
     </div>
   </main>
