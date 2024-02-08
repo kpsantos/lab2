@@ -11,7 +11,7 @@ $dbname = "webprogmi222_sf221";
    die("Connection failed: " . $conn->connect_error);
  }
 
- $sql = "SELECT id, name, email, website, comment, gender FROM myguests";
+ $sql = "SELECT id, name, email, website, comment, gender FROM kpsantos_myguests";
  $result = $conn -> query($sql);
 
 if ($result->num_rows > 0){
