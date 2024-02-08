@@ -149,7 +149,7 @@
                       if ($result->num_rows > 0){
                           //output data each row
                           while($row = $result -> fetch_assoc()) {
-                              echo "id: ". $row["id"]. " - Name: ". $row["name"]. " - Email: ". $row["email"]. " - Website: ". $row["website"]. " - Comment: ". $row["comment"]. " - Gender: ". $row["gender"]. "<br>";
+                              echo . $row["name"]."\n". $row["email"]. "\n". $row["website"]. " \n". $row["comment"]. "\n". $row["gender"]. "<br>";
                           }
                       }   else {
                           echo "0 results";
