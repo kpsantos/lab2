@@ -119,18 +119,6 @@
                     </form>
 
                     <?php
-                    echo "<h2>Your Input:</h2>";
-                    echo $name;
-                    echo "<br>";
-                    echo $email;
-                    echo "<br>";
-                    echo $website;
-                    echo "<br>";
-                    echo $comment;
-                    echo "<br>";
-                    echo $gender;
-                    ?>
-                    <?php
                     $servername = "localhost";
                     $username = "webprogmi222_sf221";
                     $password = "xE*Y2nleNVvZm[!!";
@@ -146,14 +134,18 @@
                     $sql = "SELECT * FROM kpsantos_myguests";
                     $result = $conn -> query($sql);
 
-                    if ($result->num_rows > 0){
-                        //output data each row
-                        while($row = $result -> fetch_assoc()) {
-                            echo "id: ". $row["id"]. " - Name: ". $row["name"]. " - Email: ". $row["email"]. " - Website: ". $row["website"]. " - Comment: ". $row["comment"]. " - Gender: ". $row["gender"]. "<br>";
-                        }
-                    }   else {
-                        echo "0 results";
-                    }
+                    echo "<h2>Your Input:</h2>";
+                    echo $name;
+                    echo "<br>";
+                    echo $email;
+                    echo "<br>";
+                    echo $website;
+                    echo "<br>";
+                    echo $comment;
+                    echo "<br>";
+                    echo $gender;
+                    echo "<br>";
+
                     $conn->close();
                     ?>
         </section>
