@@ -136,7 +136,13 @@
 
                     $sql = "SELECT * FROM kpsantos_myguests";
                     $result = $conn -> query($sql);
-
+                    
+                    if ($conn->query($sql) === TRUE) {
+                      echo "New record created successfully";
+                    } else {
+                      echo "Error: " . $sql . "<br>" . $conn->error;
+                    }
+                    
                     echo "<h2>Your Input:</h2>";
                     echo $name;
                     echo "<br>";
