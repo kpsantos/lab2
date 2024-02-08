@@ -131,6 +131,9 @@
                       die("Connection failed: " . $conn->connect_error);
                     }
 
+                    $sql = "INSERT INTO kpsantos_myguests (name, email, website, comment, gender)
+                            VALUES ('$name', '$email', '$website', '$comment', '$gender')";
+
                     $sql = "SELECT * FROM kpsantos_myguests";
                     $result = $conn -> query($sql);
 
