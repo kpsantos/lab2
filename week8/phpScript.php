@@ -134,9 +134,7 @@
                     $sql = "INSERT INTO kpsantos_myguests (name, email, website, comment, gender)
                             VALUES ('$name', '$email', '$website', '$comment', '$gender')";
 
-                    $sql = "SELECT * FROM kpsantos_myguests";
-                    $result = $conn -> query($sql);
-                    
+
                     if ($conn->query($sql) === TRUE) {
                       echo "New record created successfully";
                     } else {
